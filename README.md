@@ -2,9 +2,11 @@
 
 This is a HAML filter for using Kramdown to render the inline Markdown texts.
 
+This is a fork of the [haml-kramdown gem](https://github.com/blindgaenger/haml-kramdown) but it does **not** use the `:kramdown` filter.
+
 ## Usage
 
-Actually you simply have to replace your `:markdown` filters with `:kramdown`:
+Simply use the standard  `:markdown` filter:
 
 Gemfile
 
@@ -15,8 +17,8 @@ Gemfile
 foo.haml
 
     .content
-      :kramdown
-        # Markdown
+      :markdown
+        # Kramdown
 
         - foo
         - bar
