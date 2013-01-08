@@ -1,7 +1,7 @@
 module Haml
   module Filters
 
-    module Kramdown
+    module Markdown
       include Base
       lazy_require 'kramdown'
 
