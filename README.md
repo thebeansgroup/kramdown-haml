@@ -1,8 +1,8 @@
-# haml-kramdown
+# kramdown-haml
 
 This is a HAML filter for using Kramdown to render the inline Markdown texts.
 
-This is a fork of the [haml-kramdown gem](https://github.com/blindgaenger/haml-kramdown) but it does **not** use the `:kramdown` filter.
+This is a fork of the [haml-kramdown gem](https://github.com/blindgaenger/kramdown-haml) but it does **not** use the `:kramdown` filter.
 
 ## Usage
 
@@ -12,7 +12,7 @@ Gemfile
 
     gem 'haml'
     gem 'kramdown'
-    gem 'haml-kramdown'
+    gem 'kramdown-haml'
 
 foo.haml
 

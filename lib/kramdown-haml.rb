@@ -1,2 +1,2 @@
-require "haml-kramdown/version"
+require "kramdown-haml/version"
 require "haml/filters/markdown"
